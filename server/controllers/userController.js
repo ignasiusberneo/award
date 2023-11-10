@@ -50,9 +50,10 @@ class userController {
       });
       res.status(200).json({
         message: "Login success",
-        token: access_token,
+        access_token,
       });
     } catch (err) {
+      console.log(err);
       if (err.name === "INVALID_LOGIN") {
         res.status(401).json({
           message: "Email doesn't exist",
