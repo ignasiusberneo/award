@@ -1,10 +1,13 @@
 require("dotenv").config();
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 const userController = require("./controllers/userController");
 const awardController = require("./controllers/awardController");
 const authentication = require("./middlewares/authentication");
+const cors = require("cors");
+
+app.use(cors());
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
