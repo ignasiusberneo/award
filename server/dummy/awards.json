@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Gift Card IDR 100.000",
+        "category": "Vouchers",
+        "point": 100000,
+        "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
+    },
+    {
+        "title": "Old Fashion Cake",
+        "category": "Products",
+        "point": 100000,
+        "image": "https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-birthday-cake-dessert-pink-three-dimensional-png-image_9119670.png"
+    },
+    {
+        "title": "20% Discount",
+        "category": "Others",
+        "point": 100000,
+        "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
+    },
+    {
+        "title": "Gift Card IDR 200.000",
+        "category": "Vouchers",
+        "point": 200000,
+        "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
+    },
+    {
+        "title": "Birthday Cake",
+        "category": "Products",
+        "point": 200000,
+        "image": "https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-birthday-cake-dessert-pink-three-dimensional-png-image_9119670.png"
+    },
+    {
+        "title": "40% Discount",
+        "category": "Others",
+        "point": 200000,
+        "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
+    },
+    {
+        "title": "Gift Card IDR 300.000",
+        "category": "Vouchers",
+        "point": 300000,
+        "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
+    },
+    {
+        "title": "Cheese Cake",
+        "category": "Products",
+        "point": 300000,
+        "image": "https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-birthday-cake-dessert-pink-three-dimensional-png-image_9119670.png"
+    },
+    {
+        "title": "60% Discount",
+        "category": "Others",
+        "point": 300000,
+        "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
+    },
+    {
+        "title": "Gift Card IDR 400.000",
+        "category": "Vouchers",
+        "point": 400000,
+        "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
+    },
+    {
+        "title": "Chocolate Cake",
+        "category": "Products",
+        "point": 400000,
+        "image": "https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-birthday-cake-dessert-pink-three-dimensional-png-image_9119670.png"
+    },
+    {
+        "title": "80% Discount",
+        "category": "Others",
+        "point": 400000,
+        "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
+    },
+    {
+        "title": "Gift Card IDR 500.000",
+        "category": "Vouchers",
+        "point": 500000,
+        "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
+    },
+    {
+        "title": "Cinnamon Cake",
+        "category": "Products",
+        "point": 500000,
+        "image": "https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-birthday-cake-dessert-pink-three-dimensional-png-image_9119670.png"
+    },
+    {
+        "title": "100% Discount",
+        "category": "Others",
+        "point": 500000,
+        "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
+    }
+]
