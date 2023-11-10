@@ -21,29 +21,31 @@ class awardController {
         if (maxPoint) {
           options.where = {
             ...options.where,
-            point: { [Op.between]: [+minPoint, +maxPoint] },
+            point: { [Op.between]: [Number(minPoint), Number(maxPoint)] },
           };
         } else {
           options.where = {
             ...options.where,
-            point: { [Op.gte]: minPoint },
+            point: { [Op.gte]: Number(minPoint) },
           };
         }
       } else {
         if (maxPoint) {
           options.where = {
             ...options.where,
-            point: { [Op.lte]: +maxPoint },
+            point: { [Op.lte]: Number(maxPoint) },
           };
         }
       }
-      console.log(category);
-      //   if (category) {
-      //     options.where = {
-      //       ...options.where,
-      //       category: { [Op.contains]: category },
-      //     };
-      //   }
+      if (category) {
+        let tempCategory = category.split(",").map((item) => {
+          return (item = item[0].toUpperCase() + item.slice(1));
+        });
+        options.where = {
+          ...options.where,
+          category: { [Op.in]: tempCategory },
+        };
+      }
       const response = await Award.findAndCountAll(options);
       res.status(200).json({
         message: "Get awards success",
@@ -51,7 +53,6 @@ class awardController {
         totalPage: Math.ceil(response.count / size),
       });
     } catch (err) {
-      console.log(err);
       res.status(500).json({
         message: "Internal Server Error",
       });
