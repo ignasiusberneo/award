@@ -4,9 +4,11 @@ import { Header } from "antd/es/layout/layout";
 import { useState } from "react";
 import star from "../assets/star.png";
 import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 
 export default function SideBar() {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const navigate = useNavigate();
+  const [isCollapsed, setIsCollapsed] = useState(true);
   const items = [
     {
       key: "Home",
@@ -20,8 +22,17 @@ export default function SideBar() {
       key: "Profile",
       label: "Profile",
     },
-    { key: "Sign Out", label: "Sign Out" },
+    { key: "Logout", label: "Logout" },
   ];
+  const handleMenu = (menu) => {
+    if (menu === "Home") {
+      setIsCollapsed(true);
+    }
+    if (menu === "Logout") {
+      localStorage.clear();
+      navigate("/signin");
+    }
+  };
   return (
     <Sider
       collapsible
@@ -55,7 +66,7 @@ export default function SideBar() {
           <Menu
             items={items}
             selectable={false}
-            onClick={(e) => console.log(e)}
+            onClick={(e) => handleMenu(e.key)}
           />
         </>
       )}
