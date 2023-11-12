@@ -4,6 +4,7 @@ const { User } = require("../models/index");
 async function authentication(req, res, next) {
   try {
     const { access_token } = req.headers;
+    console.log(access_token);
     const payload = convertTokenToPayload(access_token);
     const data = await User.findOne({
       where: {

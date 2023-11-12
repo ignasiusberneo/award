@@ -1,7 +1,7 @@
 [
     {
         "title": "Gift Card IDR 100.000",
-        "category": "Vouchers",
+        "category": "Giftcard",
         "point": 100000,
         "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
     },
@@ -13,13 +13,13 @@
     },
     {
         "title": "20% Discount",
-        "category": "Others",
+        "category": "Vouchers",
         "point": 100000,
         "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
     },
     {
         "title": "Gift Card IDR 200.000",
-        "category": "Vouchers",
+        "category": "Giftcard",
         "point": 200000,
         "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
     },
@@ -31,13 +31,13 @@
     },
     {
         "title": "40% Discount",
-        "category": "Others",
+        "category": "Vouchers",
         "point": 200000,
         "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
     },
     {
         "title": "Gift Card IDR 300.000",
-        "category": "Vouchers",
+        "category": "Giftcard",
         "point": 300000,
         "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
     },
@@ -49,13 +49,13 @@
     },
     {
         "title": "60% Discount",
-        "category": "Others",
+        "category": "Vouchers",
         "point": 300000,
         "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
     },
     {
         "title": "Gift Card IDR 400.000",
-        "category": "Vouchers",
+        "category": "Giftcard",
         "point": 400000,
         "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
     },
@@ -67,13 +67,13 @@
     },
     {
         "title": "80% Discount",
-        "category": "Others",
+        "category": "Vouchers",
         "point": 400000,
         "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
     },
     {
         "title": "Gift Card IDR 500.000",
-        "category": "Vouchers",
+        "category": "Giftcard",
         "point": 500000,
         "image": "https://images.squarespace-cdn.com/content/v1/52e8c70fe4b0fa0698b7c4a6/1585619871289-QZJECYWUAKIM7MUBY3VD/giftcard.png?format=1000w"
     },
@@ -85,7 +85,7 @@
     },
     {
         "title": "100% Discount",
-        "category": "Others",
+        "category": "Vouchers",
         "point": 500000,
         "image": "https://www.onlygfx.com/wp-content/uploads/2018/04/discount-stamp-3.png"
     }

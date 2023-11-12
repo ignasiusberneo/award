@@ -3,6 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import SignInSignUpPage from "./views/SignInSignUpPage";
 import RequireAuth from "./components/RequireAuth";
+import FeedPage from "./views/FeedPage";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           path="/"
           element={
             <RequireAuth>
-              <SignInSignUpPage title="Sign In" />
+              <FeedPage />
             </RequireAuth>
           }
         />

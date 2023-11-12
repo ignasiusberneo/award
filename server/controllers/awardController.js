@@ -50,6 +50,7 @@ class awardController {
       res.status(200).json({
         message: "Get awards success",
         data: response.rows,
+        totalData: response.count,
         totalPage: Math.ceil(response.count / size),
       });
     } catch (err) {

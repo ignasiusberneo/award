@@ -2,7 +2,7 @@ import { Button, Checkbox, Form, Input } from "antd";
 import star from "../assets/star.png";
 import axios from "axios";
 import Swal from "sweetalert2";
-import { useNavigate, useRoutes } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function SignInSignUpForm({ title }) {
   const navigate = useNavigate();
